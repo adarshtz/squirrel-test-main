@@ -32,16 +32,16 @@ export const Trust = () => {
   );
 
   return (
-    <section className="py-16  md:py-20 overflow-hidden">
+    <section className="py-16 md:py-20 overflow-hidden">
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold tracking-tight bg-gradient-to-b from-white to-[#363535] text-transparent bg-clip-text leading-[1.1] sm:leading-[1.15] md:leading-[1.2]">
-            Trusted by over 1000 companies worldwide
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight bg-gradient-to-b from-white to-[#363535] text-transparent bg-clip-text leading-[1.1] sm:leading-[1.15] md:leading-[1.2]">
+            Trusted by Leading Brands
           </h2>
         </div>
       </div>
 
-      {/* First marquee - moving left */}
+      {/* First marquee - smooth scrolling left */}
       <div className="mb-8">
         <InfiniteMarquee
           direction="left"

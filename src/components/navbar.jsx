@@ -80,9 +80,9 @@ const Navbar = () => {
             </div>
           </div>
           <div className="flex items-center">
-            <Button className="bg-squirrel-neutral-50 outline-1 md:block hidden outline-squirrel-neutral-400/20 leading-relaxed text-black font-medium py-2 px-4 rounded-full text-sm transition-colors">
+            {/* <Button className="bg-squirrel-neutral-50 outline-1 md:block hidden outline-squirrel-neutral-400/20 leading-relaxed text-black font-medium py-2 px-4 rounded-full text-sm transition-colors">
               Get Demo
-            </Button>
+            </Button> */}
 
             <div className="flex md:hidden ml-4">
               <Button
@@ -176,9 +176,9 @@ const Navbar = () => {
                 {item.label}
               </Link>
             ))}
-            <Button className="bg-squirrel-neutral-50 outline-1 outline-squirrel-neutral-400/20 leading-relaxed text-black font-medium py-3 px-6 rounded-full text-lg transition-colors mt-4 w-full">
+            {/* <Button className="bg-squirrel-neutral-50 outline-1 outline-squirrel-neutral-400/20 leading-relaxed text-black font-medium py-3 px-6 rounded-full text-lg transition-colors mt-4 w-full">
               Get Demo
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

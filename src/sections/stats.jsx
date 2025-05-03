@@ -13,10 +13,10 @@ const Stats = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="stats-header text-center max-w-2xl mx-auto mb-8 sm:mb-12 md:mb-16 space-y-3 sm:space-y-4">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight bg-gradient-to-b from-white to-[#363535] text-transparent bg-clip-text leading-[1.1] sm:leading-[1.15] md:leading-[1.2]">
-            Accelerated Search at Your Fingertips
+            Key Statistics That Define <br /> Our Impact
           </h2>
           <p className="text-base sm:text-lg font-normal leading-7 text-transparent bg-clip-text bg-gradient-to-r from-zinc-400 to-zinc-600">
-            Our platform delivers measurable results that speak for themselves
+            Explore the Numbers Behind Our Success and Growth
           </p>
         </div>
 
@@ -36,7 +36,7 @@ const Stats = () => {
                 >
                   {stat.number}
                 </h3>
-                <p className="text-base sm:text-lg font-normal leading-7 text-squirrel-neutral-100">
+                <p className="text-base sm:text-lg font-normal leading-7 text-zinc-300">
                   {stat.mainText}
                 </p>
               </div>

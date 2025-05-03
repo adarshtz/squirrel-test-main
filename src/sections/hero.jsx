@@ -41,22 +41,22 @@ const Hero = () => {
     >
       <div className="flex flex-col lg:flex-row items-center gap-6 sm:gap-8 lg:gap-12">
         <div className="w-full lg:w-1/2 space-y-4 sm:space-y-6 text-center lg:text-left">
-          <ShinyText text="Introducing Squirrel" />
+          <ShinyText text="Squirrel AI Chatbot is here" />
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight bg-gradient-to-r from-white via-white to-white/20 text-transparent bg-clip-text leading-[1.1] sm:leading-[1.15] md:leading-[1.2] max-w-4xl">
-            Your Gateway to Faster, Smarter, and Accurate Searches
+            Driving Innovation with Apps, Software, and IT Solutions
           </h1>
 
           <p className="self-stretch justify-start text-squirrel-neutral-100 text-base sm:text-lg font-light leading-7 max-w-xl mx-auto lg:mx-0">
-            Our intelligent algorithms go beyond basic keywords, understanding
-            the intent behind your queries to provide relevant and meaningful
-            results.
+            Providing cutting-edge IT solutions, custom apps, and software
+            development to drive your business forward. Partner with us for
+            innovative and reliable digital solutions.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center lg:justify-start">
+          {/* <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center lg:justify-start">
             <Button size="lg">Get Started</Button>
             <Button variant="outline" size="lg">
               Learn More
             </Button>
-          </div>
+          </div> */}
         </div>
 
         {/* Globe component - only visible on large screens (PC) */}

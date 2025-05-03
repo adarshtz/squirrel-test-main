@@ -46,8 +46,8 @@ const Testimonials = () => {
                   ))}
                 </div>
 
-                <p className="text-squirrel-neutral-100 text-lg flex-grow">
-                  "{testimonial.text}"
+                <p className="text-squirrel-neutral-100 font-thin text-md flex-grow">
+                  {testimonial.text}
                 </p>
 
                 <div className="flex items-center mt-4">

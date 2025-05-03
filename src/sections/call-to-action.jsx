@@ -13,22 +13,22 @@ const CallToAction = () => {
       <div className="container relative z-10 mx-auto px-4">
         <div className="flex flex-col items-center max-w-3xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent mb-6 leading-[1.1] sm:leading-[1.15] md:leading-[1.2]">
-            Ready to Transform Your Search Experience?
+            Elevate Your Digital Presence Today
           </h2>
           <p className="text-base sm:text-lg text-squirrel-neutral-100 mb-10 max-w-2xl">
-            Join thousands of businesses that have already upgraded their search
-            capabilities with Squirrel. Get started today and see the
-            difference.
+            Join countless businesses that have transformed their online
+            platforms with Squirrel's cutting-edge web and software development
+            solutions. Get started now and experience the impact!
           </p>
           <div className="relative">
             <div className="absolute inset-0 bg-squirrel-primary-500/30 rounded-full blur-xl"></div>
 
-            <Button
+            {/* <Button
               size="sm"
               className="text-white bg-squirrel-primary-500 hover:bg-squirrel-primary-600 shadow-lg shadow-squirrel-primary-800/20 text-lg font-medium px-8 py-3 h-auto relative z-10 transition-all duration-300 hover:scale-105"
             >
               Get Started
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

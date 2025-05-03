@@ -25,7 +25,7 @@ const Footer = () => {
               Accelerating search experiences with intelligent retrieval
               technology.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a
                 href="#"
                 className="text-squirrel-neutral-100 hover:text-squirrel-primary-500 transition-colors"
@@ -103,7 +103,7 @@ const Footer = () => {
                   <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
                 </svg>
               </a>
-            </div>
+            </div> */}
           </div>
           <div className="md:col-span-1 flex flex-col items-center md:items-start">
             <h3 className="text-white font-medium text-lg mb-4 text-center md:text-left">
@@ -123,7 +123,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="md:col-span-1 flex flex-col items-center md:items-start">
+          {/* <div className="md:col-span-1 flex flex-col items-center md:items-start">
             <h3 className="text-white font-medium text-lg mb-4 text-center md:text-left">
               Products
             </h3>
@@ -133,7 +133,7 @@ const Footer = () => {
                   href="#"
                   className="text-squirrel-neutral-100 hover:text-squirrel-primary-500 transition-colors text-sm"
                 >
-                  Enterprise Search
+                  AI Chatbot
                 </Link>
               </li>
               <li>
@@ -141,35 +141,11 @@ const Footer = () => {
                   href="#"
                   className="text-squirrel-neutral-100 hover:text-squirrel-primary-500 transition-colors text-sm"
                 >
-                  E-commerce Search
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="text-squirrel-neutral-100 hover:text-squirrel-primary-500 transition-colors text-sm"
-                >
-                  Research Tools
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="text-squirrel-neutral-100 hover:text-squirrel-primary-500 transition-colors text-sm"
-                >
-                  Developer API
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="text-squirrel-neutral-100 hover:text-squirrel-primary-500 transition-colors text-sm"
-                >
-                  Analytics Dashboard
+                  AI Social Media Management Platform
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           <div className="md:col-span-1 flex flex-col items-center md:items-start">
             <h3 className="text-white font-medium text-lg mb-4 text-center md:text-left">
@@ -192,7 +168,7 @@ const Footer = () => {
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                 </svg>
                 <span className="text-squirrel-neutral-100">
-                  +1 (555) 123-4567
+                  +91 94496 10077
                 </span>
               </li>
               <li className="flex items-start text-sm justify-center md:justify-start">
@@ -212,10 +188,11 @@ const Footer = () => {
                   <polyline points="22,6 12,13 2,6"></polyline>
                 </svg>
                 <span className="text-squirrel-neutral-100">
-                  info@squirrel.com
+                  info@thesquirrel.tech
                 </span>
               </li>
-              <li className="flex items-start text-sm justify-center md:justify-start">
+
+              {/* <li className="flex items-start text-sm justify-center md:justify-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="mr-2 mt-0.5 text-squirrel-primary-500 flex-shrink-0"
@@ -232,11 +209,11 @@ const Footer = () => {
                   <circle cx="12" cy="10" r="3"></circle>
                 </svg>
                 <span className="text-squirrel-neutral-100 text-center md:text-left">
-                  123 Search Street,
+                  456 Tech Park Road,
                   <br />
-                  Silicon Valley, CA 94043
+                  Bangalore, Karnataka 560103
                 </span>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -245,7 +222,7 @@ const Footer = () => {
             <p className="text-squirrel-neutral-200 text-sm mb-4 md:mb-0 text-center md:text-left">
               © {currentYear} Squirrel. All rights reserved.
             </p>
-            <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-6 items-center">
+            {/* <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-6 items-center">
               <Link
                 href="#"
                 className="text-squirrel-neutral-200 hover:text-squirrel-primary-500 transition-colors text-sm"
@@ -264,7 +241,7 @@ const Footer = () => {
               >
                 Sitemap
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
