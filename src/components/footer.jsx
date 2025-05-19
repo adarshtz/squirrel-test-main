@@ -247,16 +247,16 @@ const Footer = () => {
             </p>
             <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-6 items-center">
               <Link
-                href="#"
+                href="/privacy-policy"
                 className="text-squirrel-neutral-200 hover:text-squirrel-primary-500 transition-colors text-sm"
               >
                 Privacy Policy
               </Link>
               <Link
-                href="#"
+                href="/terms"
                 className="text-squirrel-neutral-200 hover:text-squirrel-primary-500 transition-colors text-sm"
               >
-                Terms of Service
+                Terms & Conditions
               </Link>
               <Link
                 href="#"
