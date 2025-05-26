@@ -1,6 +1,6 @@
 export const navItems = [
   { label: "Home", href: "#hero" },
-  { label: "Services", href: "#projects" },
+  { label: "Services", href: "#services" },
   { label: "Stats", href: "#stats" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "FAQ", href: "#faq" },
@@ -45,7 +45,7 @@ export const statsData = [
   {
     preText: "Over",
     number: "25+",
-    mainText: "Projects Delivered Successfully.",
+    mainText: "Projects Delivered",
     color: "from-[#5B5B5C] to-[#5B5B5C]/0",
   },
   {
@@ -184,5 +184,65 @@ export const faqData = [
     question: "What is the pricing model for The Squirrel's services?",
     answer:
       "We offer flexible pricing based on project scope and requirements. Contact us for a detailed quote tailored to your needs.",
+  },
+];
+
+export const servicesData = [
+  {
+    id: 1,
+    title: "Custom Software Development",
+    description:
+      "Tailored software solutions designed to meet your unique business requirements and drive operational efficiency.",
+    icon: "🔧",
+    features: [
+      "Custom Applications",
+      "API Development",
+      "System Integration",
+      "Legacy Modernization",
+    ],
+  },
+  {
+    id: 2,
+    title: "Web Development & Design",
+    description:
+      "Modern, responsive websites and web applications that provide exceptional user experiences across all devices.",
+    icon: "🌐",
+    features: [
+      "Responsive Design",
+      "E-commerce Solutions",
+      "CMS Development",
+      "Performance Optimization",
+    ],
+  },
+  {
+    id: 3,
+    title: "Mobile App Development",
+    description:
+      "Native and cross-platform mobile applications for iOS and Android that engage users and drive business growth.",
+    icon: "📱",
+    features: [
+      "iOS Development",
+      "Android Development",
+      "Cross-platform Apps",
+      "App Store Optimization",
+    ],
+  },
+];
+
+export const productsData = [
+  {
+    id: 1,
+    title: "Squirrel AI Chatbot",
+    description:
+      "Intelligent conversational AI that provides 24/7 customer support and automates routine inquiries.",
+    icon: "🐿️",
+    features: [
+      "Natural Language Processing",
+      "Multi-language Support",
+      "Integration Ready",
+      "Analytics Dashboard",
+    ],
+    status: "Coming Soon",
+    link: "#chatbot",
   },
 ];

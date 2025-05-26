@@ -15,15 +15,13 @@ const Footer = () => {
               <Image
                 src="/logo.svg"
                 alt="Squirrel Logo"
-                width={32}
+                width={150}
                 height={32}
                 className="mr-2"
               />
-              <span className="text-white text-xl font-semibold">Squirrel</span>
             </div>
             <p className="text-squirrel-neutral-100 text-sm mb-4 text-center md:text-left">
-              Accelerating search experiences with intelligent retrieval
-              technology.
+              Cutting-edge web and software development solutions.
             </p>
             {/* <div className="flex space-x-4">
               <a
