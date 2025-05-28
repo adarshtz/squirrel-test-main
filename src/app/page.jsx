@@ -1,6 +1,7 @@
 import Stats from "@/sections/stats";
-import Hero from "../sections/hero";
-import Trust from "../sections/trust";
+import Hero from "@/sections/hero";
+import Trust from "@/sections/trust";
+import Services from "@/sections/services";
 import Projects from "@/sections/projects";
 import FAQ from "@/sections/faq";
 import Testimonials from "@/sections/testimonials";
@@ -13,9 +14,10 @@ export default function Home() {
       <Hero />
       <Trust />
       <Stats />
-      <Projects />
-      <FAQ />
+      <Services />
+      {/* <Projects /> */}
       <Testimonials />
+      <FAQ />
       <CallToAction />
       <ScrollProgress />
     </main>

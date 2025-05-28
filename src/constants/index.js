@@ -1,6 +1,6 @@
 export const navItems = [
   { label: "Home", href: "#hero" },
-  { label: "Services", href: "#projects" },
+  { label: "Services", href: "#services" },
   { label: "Stats", href: "#stats" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "FAQ", href: "#faq" },
@@ -44,13 +44,13 @@ export const statsData = [
   },
   {
     preText: "Over",
-    number: "200+",
-    mainText: "Projects Delivered Successfully.",
+    number: "25+",
+    mainText: "Projects Delivered",
     color: "from-[#5B5B5C] to-[#5B5B5C]/0",
   },
   {
     preText: "More than",
-    number: "50+",
+    number: "15+",
     mainText: "Satisfied Clients Worldwide.",
     color: "from-[#5B5B5C] to-[#5B5B5C]/0",
   },
@@ -65,48 +65,29 @@ export const statsData = [
 export const testimonialData = [
   {
     id: 1,
-    name: "John Doe",
-    position: "CEO at InnovateTech",
-    avatarSrc: "/people/people1.jpg",
-    text: "The Squirrel team delivered our project on time with exceptional quality. Their expertise in software development is unparalleled.",
+    name: "Aniket Thakur",
+    position: "Founder at AidCircle.in",
+    text: "We’ve partnered with The Squirrel’s to integrate their Chatbot, offering 24/7 support for donations and fundraising. This has made Aidcircle more accessible, responsive, and user-friendly for everyone.",
     rating: 5,
     featured: true,
   },
   {
     id: 2,
-    name: "Jane Smith",
-    position: "Product Manager at Appify",
+    name: "Cameron Norris",
+    position: "Co Founder at Social Hardware",
     avatarSrc: "/client/jane-smith.png",
-    text: "Working with The Squirrel was a game-changer for our mobile app development. Their team is highly skilled and professional.",
+    text: "Team Squirrel has been amazing right from the start, really taking the time to get our vision and needs. The website reflects that beautifully with its clean and modern design.",
     rating: 5,
     featured: false,
   },
   {
     id: 3,
-    name: "Michael Brown",
-    position: "CTO at AI Ventures",
+    name: "Shodhan Moolya",
+    position: "Founder at Torq Designs",
     avatarSrc: "/client/michael-brown.png",
-    text: "The Squirrel's AI solutions are cutting-edge. Their upcoming products are sure to revolutionize the industry.",
+    text: "TorqDesigns collaborated with The Squirrel’s for an exceptional website development experience. Their expertise delivered a user-friendly, visually stunning, and highly functional website tailored to our needs",
     rating: 5,
     featured: true,
-  },
-  {
-    id: 4,
-    name: "Emily Davis",
-    position: "Lead Developer at WebWorks",
-    avatarSrc: "/client/emily-davis.png",
-    text: "Their web development services are top-notch. The Squirrel exceeded our expectations in every way.",
-    rating: 4,
-    featured: false,
-  },
-  {
-    id: 5,
-    name: "Chris Wilson",
-    position: "UX Designer at DesignPro",
-    avatarSrc: "/client/chris-wilson.png",
-    text: "The Squirrel's attention to detail and user-centric approach made our project a huge success. Highly recommended!",
-    rating: 5,
-    featured: false,
   },
 ];
 
@@ -203,5 +184,65 @@ export const faqData = [
     question: "What is the pricing model for The Squirrel's services?",
     answer:
       "We offer flexible pricing based on project scope and requirements. Contact us for a detailed quote tailored to your needs.",
+  },
+];
+
+export const servicesData = [
+  {
+    id: 1,
+    title: "Custom Software Development",
+    description:
+      "Tailored software solutions designed to meet your unique business requirements and drive operational efficiency.",
+    icon: "🔧",
+    features: [
+      "Custom Applications",
+      "API Development",
+      "System Integration",
+      "Legacy Modernization",
+    ],
+  },
+  {
+    id: 2,
+    title: "Web Development & Design",
+    description:
+      "Modern, responsive websites and web applications that provide exceptional user experiences across all devices.",
+    icon: "🌐",
+    features: [
+      "Responsive Design",
+      "E-commerce Solutions",
+      "CMS Development",
+      "Performance Optimization",
+    ],
+  },
+  {
+    id: 3,
+    title: "Mobile App Development",
+    description:
+      "Native and cross-platform mobile applications for iOS and Android that engage users and drive business growth.",
+    icon: "📱",
+    features: [
+      "iOS Development",
+      "Android Development",
+      "Cross-platform Apps",
+      "App Store Optimization",
+    ],
+  },
+];
+
+export const productsData = [
+  {
+    id: 1,
+    title: "Squirrel AI Chatbot",
+    description:
+      "Intelligent conversational AI that provides 24/7 customer support and automates routine inquiries.",
+    icon: "🐿️",
+    features: [
+      "Natural Language Processing",
+      "Multi-language Support",
+      "Integration Ready",
+      "Analytics Dashboard",
+    ],
+    status: "Coming Soon",
+    link: "#chatbot",
   },
 ];
