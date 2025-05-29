@@ -4,38 +4,12 @@ import React from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-
-import { Globe } from "@/components/magicui/globe";
-
 import ShinyText from "@/components/shiny-text";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
+import { Squirrel } from "@/components/squirrel";
 
 const Hero = () => {
-  const darkGlobeConfig = {
-    width: 600,
-    height: 600,
-    devicePixelRatio: 2,
-    phi: 0,
-    theta: 0.3,
-    dark: 1,
-    diffuse: 0.3,
-    mapSamples: 16000,
-    mapBrightness: 6,
-    baseColor: [0.3, 0.3, 0.3],
-    markerColor: [0.717, 0.196, 0.075],
-    glowColor: [0.1, 0.1, 0.2],
-    markers: [
-      { location: [14.5995, 120.9842], size: 0.03 },
-      { location: [19.076, 72.8777], size: 0.1 },
-      { location: [23.8103, 90.4125], size: 0.05 },
-      { location: [30.0444, 31.2357], size: 0.07 },
-      { location: [39.9042, 116.4074], size: 0.08 },
-      { location: [-23.5505, -46.6333], size: 0.1 },
-      { location: [19.4326, -99.1332], size: 0.1 },
-      { location: [40.7128, -74.006], size: 0.1 },
-      { location: [34.6937, 135.5022], size: 0.05 },
-      { location: [41.0082, 28.9784], size: 0.06 },
-    ],
-  };
   return (
     <motion.section
       id="hero"
@@ -86,23 +60,30 @@ const Hero = () => {
             </motion.div>
           </motion.div>
         </motion.div>
-
-        {/* Globe component - only visible on large screens (PC) */}
-        <motion.div
-          className="w-full lg:w-1/2 hidden lg:flex justify-center relative mt-8 lg:mt-0"
-          initial={{ opacity: 0, scale: 0.8, x: 50 }}
-          animate={{ opacity: 1, scale: 1, x: 0 }}
-          transition={{ duration: 1.0, delay: 0.4, ease: "easeOut" }}
-        >
-          <motion.div
-            className="relative w-[90%] h-[400px] md:h-[500px]"
-            whileHover={{ scale: 1.02 }}
-            transition={{ type: "spring", stiffness: 300, damping: 20 }}
-          >
-            <div className="absolute inset-0 rounded-full bg-gradient-to-b from-blue-900/20 to-transparent blur-2xl"></div>
-            <Globe config={darkGlobeConfig} className="z-10" />
-          </motion.div>
-        </motion.div>
+        <div className="w-full lg:w-1/2 h-[300px] z-10 block md:hidden">
+          <Canvas>
+            <ambientLight intensity={0.75} />
+            <pointLight position={[10, 10, 10]} />
+            <Squirrel
+              scale={9}
+              position={[0.5, -1.5, 0]}
+              rotation={[0, Math.PI, 0]}
+            />
+            <OrbitControls enableZoom={false} />
+          </Canvas>
+        </div>
+        <div className="w-full lg:w-1/2 h-[500px] z-10 hidden md:block">
+          <Canvas>
+            <ambientLight intensity={0.75} />
+            <pointLight position={[10, 10, 10]} />
+            <Squirrel
+              scale={[8, 8, 8]}
+              position={[0, -1.5, 0]}
+              rotation={[0, Math.PI, 0]}
+            />
+            <OrbitControls enableZoom={false} />
+          </Canvas>
+        </div>
       </div>
     </motion.section>
   );
